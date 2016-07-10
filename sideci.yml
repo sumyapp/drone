@@ -15,5 +15,6 @@ linter:
       disable-all: true
   golint:
     options:
+      vendor: false
       min-confidence: .90
  
